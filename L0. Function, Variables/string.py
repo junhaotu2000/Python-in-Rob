@@ -44,3 +44,18 @@ print("Hello, ", name, sep = "???")
 # print the quoet inside the sentence 
 print('Hello, "friend"') 
 print("Hello, \"friend\"")
+
+# multiple line input - in sperate line
+my_str = f"""I
+am
+a
+Geek !"""
+print(my_str) 
+
+# multiple line input - in single line
+my_str = f"""I \
+am \
+a \
+Geek !"""
+print(my_str)
+
