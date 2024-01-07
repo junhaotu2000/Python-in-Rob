@@ -10,7 +10,7 @@ if matches:
     # name = matches.group(2) + " " + matches.group(1)
     print(f"hello, {name}")
 
-# := - is right side is true then, then assign value to left side 
+# := - is right side is true then, then assign value to left side
 if matches := re.search(r"^(.+), (.+)$", name):
     name = matches.group(2) + " " + matches.group(1)
     print(f"hello, {name}")
