@@ -1,5 +1,4 @@
-
-# convert the type at the input stage 
+# convert the type at the input stage
 x = int(input("What's x?"))
 y = int(input("What's y?"))
 
@@ -7,11 +6,11 @@ x = float(input("What's x?"))
 y = float(input("What's y?"))
 
 # round(number[, ndigits]) - []: sometimes this means optional
-# round the result into int 
+# round the result into int
 z = round(x + y)
 
 # round the result into two decimals
-z = round(x/y, 2)
+z = round(x / y, 2)
 
 # add comman , into every thousand num
 print(f"{z:,}")

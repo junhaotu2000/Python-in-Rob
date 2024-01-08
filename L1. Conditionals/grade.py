@@ -11,7 +11,7 @@ elif score >= 60 and score <= 70:
     print("Grade: D")
 else:
     print("Grade: F")
-    
+
 # combine two conditional expressions
 if 90 <= score <= 100:
     print("Grade: A")
@@ -23,7 +23,7 @@ elif 60 <= score <= 70:
     print("Grade: D")
 else:
     print("Grade: F")
-    
+
 # combine two conditional expressions (optional way)
 if 90 <= score:
     print("Grade: A")

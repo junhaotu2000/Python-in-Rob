@@ -1,8 +1,12 @@
-import numpy as np
+import time
+
+start = time.perf_counter()
 
 
-x = np.random.rand(10000, 10000)
-y = np.random.rand(10000, 10000)
-z = x @ y
+def do_something():
+    print("Sleeping 1 second ...")
+    time.sleep(1)
+    print("Done Sleeping ... ")
 
-print(z)
+
+finish = time.perf_counter()
