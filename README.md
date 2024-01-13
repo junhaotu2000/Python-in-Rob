@@ -1,7 +1,3 @@
-Certainly! Below is a template for a Markdown (`.md`) file that you can use for your GitHub repository, named "python-in-rob", which focuses on Python for robotics, including libraries like NumPy, PyTorch, Matplotlib, and SciPy. You can adjust the content according to your specific needs and the details of your repository.
-
----
-
 # Python in Robotics
 
 Welcome to the "python-in-rob" repository! This repository is dedicated to providing resources, examples, and tutorials for using Python in the field of robotics. Here, you'll find information on basic Python syntax and various libraries that are essential in robotics, such as NumPy, PyTorch, Matplotlib, and SciPy.
