@@ -12,6 +12,8 @@ Numpy 作为python的通用计算包，功能强大又足够简单, 因此往往
 
 NumCpp - 基于Numpy的C++ 库： [https://dpilger26.github.io/NumCpp/doxygen/html/index.html](https://dpilger26.github.io/NumCpp/doxygen/html/index.html)
 
+[推荐收藏！5万字图解Numpy](https://zhuanlan.zhihu.com/p/625629800?utm_campaign=shareopn&utm_medium=social&utm_oi=882024674379333632&utm_psn=1732044027141296128&utm_source=wechat_session)
+
 ```python
 import numpy as np    # 导入numpy
 print(np.__version__) # 检查numpy版本
@@ -278,6 +280,7 @@ np.linalg.inv(matrix)  # 矩阵求逆
 np.linalg.det(matrix)  # 计算矩阵行列式
 np.linalg.eig(matrix)  # 计算方阵的特征值和右特征向量
 np.linalg.norm(matrix) # normalize
+np.linalg.elgvals()    # 计算方阵特征向量
 
 # ----算术运算
 np.add(x, y)    # 加法
@@ -336,7 +339,7 @@ np.conj(complex_array) # 返回复数的共轭
 广播 (broadcasting)
 
 ```python
-##### Refer to the pytorch, they are using same broadcasting system ##### 
+##### Refer to the pytorch, they are using the same broadcasting system ##### 
 ```
 
 ## 索引及切片
