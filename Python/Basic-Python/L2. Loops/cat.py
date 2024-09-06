@@ -23,9 +23,7 @@ while True:
     if n > 0:
         break
 
-for _ in range(
-    n
-):  # if the iterative element (etc. i, j, k) will not be used, use _ to be pythonic
+for _ in range(n):  # if the iterative element (etc. i, j, k) will not be used, use _ to be pythonic
     print("meow")
 
 
@@ -37,7 +35,7 @@ def main():
 
 def get_number():
     while True:
-        n = int((input("What's n? ")))
+        n = int(input("What's n? "))
         if n > 0:
             return n
 

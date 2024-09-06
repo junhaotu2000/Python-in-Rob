@@ -19,7 +19,7 @@ elif name == "Draco":
     print("Slytherin")
 else:
     print("Who?")
-    
+
 # use swith method
 match name:
     case "Harry":
@@ -30,14 +30,14 @@ match name:
         print("Gryffindor")
     case "Draco":
         print("Slytherin")
-    case _: # 
+    case _:  #
         print("Who?")
-        
+
 # use swith method + |
 match name:
-    case "Harry" |"Hermione" |"Ron":
+    case "Harry" | "Hermione" | "Ron":
         print("Gryffindor")
     case "Draco":
         print("Slytherin")
-    case _: # 
+    case _:  #
         print("Who?")

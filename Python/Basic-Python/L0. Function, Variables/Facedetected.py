@@ -38,11 +38,7 @@ def batch_process_images(input_folder, output_folder):
         os.makedirs(output_folder)
 
     # 获取输入文件夹中的所有图像文件
-    image_files = [
-        f
-        for f in os.listdir(input_folder)
-        if f.lower().endswith((".png", ".jpg", ".jpeg"))
-    ]
+    image_files = [f for f in os.listdir(input_folder) if f.lower().endswith((".png", ".jpg", ".jpeg"))]
 
     # 遍历每个图像文件
     for image_file in image_files:
@@ -54,10 +50,10 @@ def batch_process_images(input_folder, output_folder):
 
 
 if __name__ == "__main__":
-    input_images_folder = "D:\OneDrive - Umich\Desktop\Deep fake\Figures\Yixin_LIU\Original"  # 指定包含图像文件的文件夹路径
-    output_faces_folder = (
-        "D:\OneDrive - Umich\Desktop\Deep fake\Figures\Yixin_LIU\Test"  # 指定输出路径
+    input_images_folder = (
+        "D:\OneDrive - Umich\Desktop\Deep fake\Figures\Yixin_LIU\Original"  # 指定包含图像文件的文件夹路径
     )
+    output_faces_folder = "D:\OneDrive - Umich\Desktop\Deep fake\Figures\Yixin_LIU\Test"  # 指定输出路径
 
     # 调用函数进行批量处理
     batch_process_images(input_images_folder, output_faces_folder)
