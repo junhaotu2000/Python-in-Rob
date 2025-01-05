@@ -3,7 +3,7 @@ import logging
 # 设置日志级别为INFO及以上(全局)
 logging.basicConfig(level=logging.INFO, 
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    filename='log.txt',
+                    filename='log.log',
                     filemode='w') 
 
 # other_logger = logging.getLogger(__name__)
@@ -12,7 +12,7 @@ test_logger = logging.getLogger('test')
 
 logging.debug('This is a debug message')
 logging.info('This is an info message')
-file_handler = logging.FileHandler('test_log.txt')
+file_handler = logging.FileHandler('test_log.log')
 file_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
 test_logger.addHandler(file_handler)
 

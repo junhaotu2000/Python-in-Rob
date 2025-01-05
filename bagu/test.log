@@ -1,0 +1,5 @@
+2025-01-05 11:17:03.449 | INFO     | __main__:worker:7 - This is a worker info message - 1
+2025-01-05 11:17:03.449 | INFO     | __main__:worker:7 - This is a worker info message - 1024
+2025-01-05 11:17:03.449 | INFO     | __main__:worker:7 - This is a worker info message - 59049
+2025-01-05 11:17:03.448 | INFO     | __main__:worker:7 - This is a worker info message - 0
+2025-01-05 11:17:03.449 | INFO     | __main__:worker:7 - This is a worker info message - 1048576
